@@ -1,0 +1,25 @@
+{
+  "name": "figma-webfont-exporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/gulp": "^4.0.6",
+    "axios": "^0.19.2",
+    "figma-api": "^1.5.5",
+    "gulp": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3",
+    "webfont": "^9.0.0",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.7"
+  }
+}
