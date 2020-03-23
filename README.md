@@ -17,6 +17,9 @@ You need to install [Node JS](https://nodejs.org/en/download/) if you dont have 
 ### 3. Get you figma personal access token
 [Documentation on how to get tokens](https://www.figma.com/developers/api#access-tokens)
 
+### 4. Duplicate and test
+https://www.figma.com/community/file/823836449723293396/Figma-Webfont-Exporter-Testing-File
+
 ### Run
 ```
 gulp figma-webfont-exporter --token <FIGMA_PERSONAL_ACCSESS_TOKEN> --fileId <FIGMA_FILE_ID> --fontName myFontName --page 1
