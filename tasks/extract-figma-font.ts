@@ -139,7 +139,7 @@ function getSVG(node: Figma.Node<any>) {
         let childNames = [];
         if (children && children.length) {
             children.forEach(child => { 
-                if (child.type === "FRAME") {
+                if (child.type === "FRAME" || child.type === "COMPONENT") {
                     childIDS.push(child.id);
                     childNames.push(child.name);
                 }
